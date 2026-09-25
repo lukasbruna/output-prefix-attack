@@ -1,6 +1,9 @@
 ## Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs
-This repository contains experiments for paper [Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs](https://arxiv.org/abs/2609.29775)
-For any use of this code, please cite this paper 
+This repository contains experiments for paper [Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs](https://arxiv.org/abs/2609.29775).
+
+For any use of this code, please cite this paper:
+
+```bibtex
 @misc{brůna2026prefillingreasoningchanneloutputprefix,
       title={Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs}, 
       author={Lukáš Brůna and Robert Bridges and Adam Ek},
@@ -10,7 +13,7 @@ For any use of this code, please cite this paper
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2609.29775}, 
 }
-
+```
 The experiments create a comprehensive pipeline for evaluating the safety alignment and jailbreak vulnerability of modern Large Language Models (LLMs) against adversarial prompts. Specifically, the framework systematically tests models against prefix-injection attacks and pre-generated reasoning chain (Chain of Thought) manipulation.
 
 By dictating how an LLM should begin its response (using pre-set prefixes) or pre-seeding its reasoning space (injecting artificial "thoughts" inside `<think>` tags), this project exposes deep-seated alignment vulnerabilities in frontier models.
@@ -18,11 +21,11 @@ By dictating how an LLM should begin its response (using pre-set prefixes) or pr
 ---
 
 ## Table of Contents
-1. [Overview & Main Purpose](#-overview--main-purpose)
-2. [The End-to-End Pipeline](#-the-end-to-end-pipeline)
-3. [Installation, Setup & Reproducing Results](#-installation-setup--reproducing-results)
-4. [Evaluation Methodology & Scoring](#-evaluation-methodology--scoring)
-5. [Results & Visualizations](#-results--visualizations)
+1. [Overview & Main Purpose](#overview--main-purpose)
+2. [The End-to-End Pipeline](#the-end-to-end-pipeline)
+3. [Installation, Setup & Reproducing Results](#installation-setup--reproducing-results)
+4. [Evaluation Methodology & Scoring](#evaluation-methodology--scoring)
+5. [Results & Visualizations](#results--visualizations)
 
 ---
 
