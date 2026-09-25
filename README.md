@@ -1,6 +1,17 @@
-# LLM Safety Alignment & Jailbreak Evaluation Pipeline
+## Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs
+This repository contains experiments for paper [Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs](https://arxiv.org/abs/2609.29775)
+For any use of this code, please cite this paper 
+@misc{brůna2026prefillingreasoningchanneloutputprefix,
+      title={Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs}, 
+      author={Lukáš Brůna and Robert Bridges and Adam Ek},
+      year={2026},
+      eprint={2609.29775},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2609.29775}, 
+}
 
-This repository contains a comprehensive pipeline for evaluating the safety alignment and jailbreak vulnerability of modern Large Language Models (LLMs) against adversarial prompts. Specifically, the framework systematically tests models against prefix-injection attacks and pre-generated reasoning chain (Chain of Thought) manipulation.
+The experiments create a comprehensive pipeline for evaluating the safety alignment and jailbreak vulnerability of modern Large Language Models (LLMs) against adversarial prompts. Specifically, the framework systematically tests models against prefix-injection attacks and pre-generated reasoning chain (Chain of Thought) manipulation.
 
 By dictating how an LLM should begin its response (using pre-set prefixes) or pre-seeding its reasoning space (injecting artificial "thoughts" inside `<think>` tags), this project exposes deep-seated alignment vulnerabilities in frontier models.
 
