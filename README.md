@@ -4,14 +4,13 @@ This repository contains experiments for paper [Prefilling the Reasoning Channel
 For any use of this code, please cite this paper:
 
 ```bibtex
-@misc{brůna2026prefillingreasoningchanneloutputprefix,
-      title={Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs}, 
-      author={Lukáš Brůna and Robert Bridges and Adam Ek},
-      year={2026},
-      eprint={2609.29775},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2609.29775}, 
+@inproceedings{
+bruna2026prefilling,
+title={Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning {LLM}s},
+author={Luk{\'a}{\v{s}} Br{\r{u}}na and Robert A. Bridges and Adam Ek},
+booktitle={Foundations of Language Model Security: Theory, Practice, and Fundamental Limits},
+year={2026},
+url={https://openreview.net/forum?id=4BcRv6b792}
 }
 ```
 The experiments create a comprehensive pipeline for evaluating the safety alignment and jailbreak vulnerability of modern Large Language Models (LLMs) against adversarial prompts. Specifically, the framework systematically tests models against prefix-injection attacks and pre-generated reasoning chain (Chain of Thought) manipulation.
